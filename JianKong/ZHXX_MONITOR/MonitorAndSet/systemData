@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Prcocess>
+  <client name="ZHXX-2">notepad.exe;iexplore.exe  </client>
+  <client name="ZHXX-7">notepad.exe;</client>
+  <client name="ZHXX-4">无进程限制</client>
+  <client name="atc-HP">notepad.exe</client>
+</Prcocess>

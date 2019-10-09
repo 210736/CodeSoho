@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FFEE182-2082-4DDD-A833-6920C0170D23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonitorAndSet</RootNamespace>
+    <AssemblyName>MonitorAndSet</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>http://localhost/MonitorAndSet/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdventNetSnmp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=43c30aa02e1b2bc0">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\AdventNetSnmp.dll</HintPath>
+    </Reference>
+    <Reference Include="clock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\WORK\代码\系统监控新版\2011-08-02 系统监控服务端程序 李小虎版本 c#\系统监控服务端程序 李小虎版本 c#\SysMonitor_20100804\SysMonitor\bin\Debug\clock.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Design, Version=9.2.0.0, Culture=neutral, PublicKeyToken=3caa4ad0ba35cf8d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\软件备份\[大家网]DotNetBar.for.Windows.Froms.2008[www.TopSage.com]\dotnetbar92  破解树\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=9.2.0.0, Culture=neutral, PublicKeyToken=d159a0cb0c2a1170, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\软件备份\[大家网]DotNetBar.for.Windows.Froms.2008[www.TopSage.com]\dotnetbar92  破解树\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="SnmpSharpNet, Version=0.8.6.0, Culture=neutral, PublicKeyToken=b2181aa3b9571feb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SnmpSharpNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonClass\DataBase.cs" />
+    <Compile Include="CommonClass\Encrypt.cs" />
+    <Compile Include="CommonClass\GetSafeData.cs" />
+    <Compile Include="CommonClass\SQLString.cs" />
+    <Compile Include="CommonClass\TimeInterface.cs" />
+    <Compile Include="TopoInfo\AlarmDetail.cs" />
+    <Compile Include="TopoInfo\BroadcastSocket.cs" />
+    <Compile Include="TopoInfo\HostInfo.cs" />
+    <Compile Include="TopoInfo\LogInfo.cs" />
+    <Compile Include="TopoInfo\MsDevice.cs" />
+    <Compile Include="TopoInfo\MulticastServer.cs" />
+    <Compile Include="TopoInfo\MulticastSocket.cs" />
+    <Compile Include="TopoInfo\Snmp.cs" />
+    <Compile Include="TopoInfo\TaskAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TopoInfo\TcpConnect.cs" />
+    <Compile Include="TopoInfo\Topology.cs" />
+    <Compile Include="UILayer\AlarmCfg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\AlarmCfg.designer.cs">
+      <DependentUpon>AlarmCfg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\AlarmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\AlarmInfo.designer.cs">
+      <DependentUpon>AlarmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\DataShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\DataShow.designer.cs">
+      <DependentUpon>DataShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\DbConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\DbConnect.Designer.cs">
+      <DependentUpon>DbConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\FolderBrowserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\FolderBrowserDialog.Designer.cs">
+      <DependentUpon>FolderBrowserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\HistroyQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\HistroyQuery.designer.cs">
+      <DependentUpon>HistroyQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\HostInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\HostInfoForm.designer.cs">
+      <DependentUpon>HostInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\RemoteControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\RemoteControl.Designer.cs">
+      <DependentUpon>RemoteControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\ShutDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\ShutDown.Designer.cs">
+      <DependentUpon>ShutDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\LogCfg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\LogCfg.designer.cs">
+      <DependentUpon>LogCfg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\LogClear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\LogClear.designer.cs">
+      <DependentUpon>LogClear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UILayer\AlarmCfg.resx">
+      <DependentUpon>AlarmCfg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\AlarmInfo.resx">
+      <DependentUpon>AlarmInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\DataShow.resx">
+      <DependentUpon>DataShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\DbConnect.resx">
+      <DependentUpon>DbConnect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\FolderBrowserDialog.resx">
+      <DependentUpon>FolderBrowserDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\HistroyQuery.resx">
+      <DependentUpon>HistroyQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\HostInfoForm.resx">
+      <DependentUpon>HostInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\RemoteControl.resx">
+      <DependentUpon>RemoteControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\ShutDown.resx">
+      <DependentUpon>ShutDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\LogCfg.resx">
+      <DependentUpon>LogCfg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\LogClear.resx">
+      <DependentUpon>LogClear.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\SwitchInfoForm.resx">
+      <DependentUpon>SwitchInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILayer\THChange.resx">
+      <DependentUpon>THChange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Picture\Thumbs.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="systemData">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UILayer\Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\SwitchInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\SwitchInfoForm.designer.cs">
+      <DependentUpon>SwitchInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILayer\THChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILayer\THChange.designer.cs">
+      <DependentUpon>THChange.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harddrive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderClosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grennline.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buleline.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grayline.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\交换机1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\port_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-play_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control-stop_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\透明3.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DLL\AdventNetSnmp.dll" />
+    <Content Include="DLL\clock.dll" />
+    <Content Include="DLL\DevComponents.DotNetBar.Design.dll" />
+    <Content Include="DLL\DevComponents.DotNetBar2.dll" />
+    <Content Include="DLL\SnmpSharpNet.dll" />
+    <Content Include="Picture\buleline_h.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\buleline_v.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\dot_green.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\FolderOpen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\GrayBackground.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\grayline_h.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\grayline_v.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\grennline_h.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\grennline_v.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\port_green.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\port_red.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\seatBlue.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\seatGray.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\seatRed.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\seatYellow.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\switchBlue.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\switchGray.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\switchRed.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\switchYellow.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Picture\交换机1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

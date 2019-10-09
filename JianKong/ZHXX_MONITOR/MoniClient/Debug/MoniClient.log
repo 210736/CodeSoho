@@ -1,0 +1,171 @@
+﻿生成启动时间为 2019-09-14 23:30:21。
+     1>项目“D:\ZHXX2018\ZHXX_MONITOR\MoniClient\MoniClient.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\MoniClient.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Debug\MoniClient.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\program\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\BCGSoft\BCGControlBarPro\Bin" /I"C:\Program Files (x86)\BCGSoft\BCGControlBarPro\BCGCBPro" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/MoniClient.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         d:\program\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\BCGSoft\BCGControlBarPro\Bin" /I"C:\Program Files (x86)\BCGSoft\BCGControlBarPro\BCGCBPro" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/MoniClient.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ftpclass.cpp InitFile.cpp LocalInfo.cpp MFNetTraffic.cpp MoniClient.cpp MoniClientDlg.cpp MoniInfoDlg.cpp ThreadRecvBroadcastData.cpp UDPReceiver.cpp UDPSender.cpp
+         UDPSender.cpp
+         UDPReceiver.cpp
+         ThreadRecvBroadcastData.cpp
+     1>d:\zhxx2018\zhxx_monitor\moniclient\threadrecvbroadcastdata.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\zhxx2018\zhxx_monitor\moniclient\threadrecvbroadcastdata.cpp(114): warning C4018: “>=”: 有符号/无符号不匹配
+         MoniInfoDlg.cpp
+         Automatically linking with BCGCBPRO1610D100.lib
+         MoniClientDlg.cpp
+         Automatically linking with BCGCBPRO1610D100.lib
+     1>d:\zhxx2018\zhxx_monitor\moniclient\threadrecvbroadcastdata.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(308): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\stdlib.h(533) : 参见“wcstombs”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(310): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\stdlib.h(533) : 参见“wcstombs”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(365): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(368): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(372): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(552): warning C4101: “hModule”: 未引用的局部变量
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(553): warning C4101: “cbNeeded”: 未引用的局部变量
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(685): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(686): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(688): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(690): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(692): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(694): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(696): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(698): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(700): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(702): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(704): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(706): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(710): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(715): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(716): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(717): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(727): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(731): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(734): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(739): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(742): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(745): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(751): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(755): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(758): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(763): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(766): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(773): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(779): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(786): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(789): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(790): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(807): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(808): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(827): warning C4244: “=”: 从“LONGLONG”转换到“LONG”，可能丢失数据
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(832): warning C4244: “=”: 从“LONGLONG”转换到“LONG”，可能丢失数据
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(837): warning C4244: “=”: 从“LONGLONG”转换到“LONG”，可能丢失数据
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(882): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(883): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(884): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclientdlg.cpp(1036): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         MoniClient.cpp
+         Automatically linking with BCGCBPRO1610D100.lib
+     1>d:\zhxx2018\zhxx_monitor\moniclient\moniclient.cpp(61): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 d:\program\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : 参见“CWinApp::Enable3dControls”的声明
+         MFNetTraffic.cpp
+     1>d:\zhxx2018\zhxx_monitor\moniclient\mfnettraffic.cpp(247): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         LocalInfo.cpp
+         InitFile.cpp
+         ftpclass.cpp
+     1>d:\zhxx2018\zhxx_monitor\moniclient\ftpclass.cpp(867): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zhxx2018\zhxx_monitor\moniclient\ftpclass.cpp(1227): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zhxx2018\zhxx_monitor\moniclient\ftpclass.cpp(1294): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zhxx2018\zhxx_monitor\moniclient\ftpclass.cpp(1505): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zhxx2018\zhxx_monitor\moniclient\ftpclass.cpp(1713): warning C4244: “=”: 从“std::streamoff”转换到“long”，可能丢失数据
+     1>d:\zhxx2018\zhxx_monitor\moniclient\ftpclass.cpp(1769): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\zhxx2018\zhxx_monitor\moniclient\ftpclass.cpp(1882): warning C4244: “初始化”: 从“std::streamsize”转换到“int”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\MoniClient.res" MoniClient.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\MoniClient.exe.embed.manifest.res" .\Debug\MoniClient_manifest.rc 
+       Link:
+         d:\program\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/MoniClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\BCGSoft\BCGControlBarPro\Bin" Iphlpapi.lib Psapi.lib Kernel32.lib Advapi32.lib Ws2_32.lib BCGCBPRO1610d100.lib /MANIFEST /ManifestFile:".\Debug\MoniClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/MoniClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\MoniClient.lib" /MACHINE:X86 .\Debug\MoniClient.res
+         .\Debug\MoniClient.exe.embed.manifest.res
+         .\Debug/ftpclass.obj
+         .\Debug/InitFile.obj
+         .\Debug/LocalInfo.obj
+         .\Debug/MFNetTraffic.obj
+         .\Debug/MoniClient.obj
+         .\Debug/MoniClientDlg.obj
+         .\Debug/MoniInfoDlg.obj
+         .\Debug/StdAfx.obj
+         .\Debug/ThreadRecvBroadcastData.obj
+         .\Debug/UDPReceiver.obj
+         .\Debug/UDPSender.obj
+       Manifest:
+         正在删除文件“.\Debug\MoniClient.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\MoniClient.exe.embed.manifest" /manifest .\Debug\MoniClient.exe.intermediate.manifest "d:\program\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\MoniClient.exe.embed.manifest.res" .\Debug\MoniClient_manifest.rc 
+       LinkEmbedManifest:
+         d:\program\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/MoniClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\BCGSoft\BCGControlBarPro\Bin" Iphlpapi.lib Psapi.lib Kernel32.lib Advapi32.lib Ws2_32.lib BCGCBPRO1610d100.lib /MANIFEST /ManifestFile:".\Debug\MoniClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/MoniClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\MoniClient.lib" /MACHINE:X86 .\Debug\MoniClient.res
+         .\Debug\MoniClient.exe.embed.manifest.res
+         .\Debug/ftpclass.obj
+         .\Debug/InitFile.obj
+         .\Debug/LocalInfo.obj
+         .\Debug/MFNetTraffic.obj
+         .\Debug/MoniClient.obj
+         .\Debug/MoniClientDlg.obj
+         .\Debug/MoniInfoDlg.obj
+         .\Debug/StdAfx.obj
+         .\Debug/ThreadRecvBroadcastData.obj
+         .\Debug/UDPReceiver.obj
+         .\Debug/UDPSender.obj
+         MoniClient.vcxproj -> D:\ZHXX2018\ZHXX_MONITOR\MoniClient\.\Debug\MoniClient.exe
+       BscMake:
+         d:\program\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/MoniClient.bsc" .\Debug\ftpclass.sbr .\Debug\InitFile.sbr .\Debug\LocalInfo.sbr .\Debug\MFNetTraffic.sbr .\Debug\MoniClient.sbr .\Debug\MoniClientDlg.sbr .\Debug\MoniInfoDlg.sbr .\Debug\StdAfx.sbr .\Debug\ThreadRecvBroadcastData.sbr .\Debug\UDPReceiver.sbr .\Debug\UDPSender.sbr
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\MoniClient.unsuccessfulbuild”。
+         正在对“.\Debug\MoniClient.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\ZHXX2018\ZHXX_MONITOR\MoniClient\MoniClient.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:33.69

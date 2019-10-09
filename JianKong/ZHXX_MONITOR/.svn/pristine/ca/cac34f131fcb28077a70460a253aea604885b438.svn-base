@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MoniClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "bscmake.exe /nologo /o"Debug/MoniClient.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MoniClient.sbr" ".\Debug\MoniClientDlg.sbr""
+Creating browse info file...
+Error spawning bscmake.exe
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MoniClient.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
