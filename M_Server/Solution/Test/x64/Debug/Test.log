@@ -1,0 +1,13 @@
+﻿生成启动时间为 2019-09-13 20:55:07。
+     1>项目“Z:\M_Server\Solution\Test\Test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Test.cpp
+         Test.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\M_Server\Solution\x64\Debug\Test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Z:\M_Server\Solution\x64\Debug\Test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\M_Server\Solution\x64\Debug\Test.lib" /MACHINE:X64 x64\Debug\Test.obj
+         Test.vcxproj -> Z:\M_Server\Solution\x64\Debug\Test.exe
+     1>已完成生成项目“Z:\M_Server\Solution\Test\Test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.01

@@ -1,0 +1,115 @@
+
+/** XmlBase is a base class for every class in TinyXml.
+	It does little except to establish that TinyXml classes
+	can be printed and provide some utility functions.
+
+	In XML, the document and elements can contain
+	other elements and other types of nodes.
+
+	@verbatim
+	A Document can contain:	Element	(container or leaf)
+							Comment (leaf)
+							Unknown (leaf)
+							Declaration( leaf )
+
+	An Element can contain:	Element (container or leaf)
+							Text	(leaf)
+							Attributes (not on tree)
+							Comment (leaf)
+							Unknown (leaf)
+
+	A Decleration contains: Attributes (not on tree)
+	@endverbatim
+*/
+
+
+/** The meaning of 'value' changes for the specific type of	XmlNode.
+
+	Document:	filename of the xml file
+	Element:	name of the element
+	Comment:	the comment text
+	Unknown:	the tag contents
+	Text:		the text string
+*/
+
+
+/**
+	A XmlHandle is a class that wraps a node pointer with null checks; this is
+	an incredibly useful thing. Note that XmlHandle is not part of the TinyXml
+	DOM structure. It is a separate utility class.
+
+	Take an example:
+	@verbatim
+	<Document>
+		<Element attributeA = "valueA">
+			<Child attributeB = "value1" />
+			<Child attributeB = "value2" />
+		</Element>
+	<Document>
+	@endverbatim
+
+	Assuming you want the value of "attributeB" in the 2nd "Child" element, it's very 
+	easy to write a *lot* of code that looks like:
+
+	@verbatim
+	XmlElement* root = document.FirstChildElement( "Document" );
+	if ( root )
+	{
+		XmlElement* element = root->FirstChildElement( "Element" );
+		if ( element )
+		{
+			XmlElement* child = element->FirstChildElement( "Child" );
+			if ( child )
+			{
+				XmlElement* child2 = child->NextSiblingElement( "Child" );
+				if ( child2 )
+				{
+					// Finally do something useful.
+	@endverbatim
+
+	And that doesn't even cover "else" cases. XmlHandle addresses the verbosity
+	of such code. A XmlHandle checks for null	pointers so it is perfectly safe 
+	and correct to use:
+
+	@verbatim
+	XmlHandle docHandle( &document );
+	XmlElement* child2 = docHandle.FirstChild( "Document" ).FirstChild( "Element" ).Child( "Child", 1 ).ToElement();
+	if ( child2 )
+	{
+		// do something useful
+	@endverbatim
+
+	Which is MUCH more concise and useful.
+
+	It is also safe to copy handles - internally they are nothing more than node pointers.
+	@verbatim
+	XmlHandle handleCopy = handle;
+	@endverbatim
+
+	What they should not be used for is iteration:
+
+	@verbatim
+	int i=0; 
+	while ( true )
+	{
+		XmlElement* child = docHandle.FirstChild( "Document" ).FirstChild( "Element" ).Child( "Child", i ).ToElement();
+		if ( !child )
+			break;
+		// do something
+		++i;
+	}
+	@endverbatim
+
+	It seems reasonable, but it is in fact two embedded while loops. The Child method is 
+	a linear walk to find the element, so this code would iterate much more than it needs 
+	to. Instead, prefer:
+
+	@verbatim
+	XmlElement* child = docHandle.FirstChild( "Document" ).FirstChild( "Element" ).FirstChild( "Child" ).ToElement();
+
+	for( child; child; child=child->NextSiblingElement() )
+	{
+		// do something
+	}
+	@endverbatim
+*/

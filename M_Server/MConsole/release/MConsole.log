@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/5/9 18:33:28。
+     1>项目“E:\M_Server\QTProject\MConsole\MConsole.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Generate moc_predefs.h
+         MOC mframe.h
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /I..\..\..\Qt\Qt5.8.0\5.8\msvc2013_64\include /I..\..\..\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtWidgets /I..\..\..\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtGui /I..\..\..\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtANGLE /I..\..\..\Qt\Qt5.8.0\5.8\msvc2013_64\include\QtCore /Irelease /I"..\..\..\Qt\Qt5.8.0\5.8\msvc2013_64\mkspecs\win32-msvc2013" /nologo /W3 /WX- /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D MCONSOLE_LIBRARY /D QT_DEPRECATED_WARNINGS /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"release\\" /Gd /TP /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 mconsole.cpp mframe.cpp release\moc_mframe.cpp
+         mconsole.cpp
+         mframe.cpp
+     1>mframe.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>mframe.cpp(32): warning C4100: “level”: 未引用的形参
+         moc_mframe.cpp
+         正在生成代码...
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"release\\MConsole.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\Qt\Qt5.8.0\5.8\msvc2013_64\lib E:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Widgets.lib E:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Gui.lib E:\Qt\Qt5.8.0\5.8\msvc2013_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\MConsole.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 /DLL release\mconsole.obj
+         release\mframe.obj
+         release\moc_mframe.obj
+            正在创建库 release\\MConsole.lib 和对象 release\\MConsole.exp
+         MConsole.vcxproj -> E:\M_Server\QTProject\MConsole\release\MConsole.dll
+     1>已完成生成项目“E:\M_Server\QTProject\MConsole\MConsole.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.99

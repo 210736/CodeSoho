@@ -1,0 +1,1083 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="math">
+      <UniqueIdentifier>{91ec8890-39af-473e-bbc4-09f1e07fc0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{db96e829-93fa-4ba5-8010-6cc464909123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="error">
+      <UniqueIdentifier>{2802546d-1857-4ebe-bcfd-9ed23b06be6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter">
+      <UniqueIdentifier>{a22a2cf6-0d49-4b82-915c-661b37344c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter\lzo">
+      <UniqueIdentifier>{8f5f9509-4ad8-488d-b8a6-93a112457eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter\lzma">
+      <UniqueIdentifier>{eb4c44db-8063-46cb-9c25-f7be5f5ab749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{c41f6935-ec74-437d-be46-c3f614ee3e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{0d232b3c-9ab5-4c5e-88e3-19231ec83269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{758a1273-df6c-4eb2-93c6-60aa7daf883e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\ftp">
+      <UniqueIdentifier>{423e231d-59f6-441f-b7e9-ff10c0d37f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\wan">
+      <UniqueIdentifier>{713194b9-211d-49dd-97ba-34fde9a342e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\lan">
+      <UniqueIdentifier>{8d6f5f09-d32f-4d7e-929c-d7c1244a50b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\http">
+      <UniqueIdentifier>{c8ed5f4e-6152-4c14-8481-6b88f4764c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\general">
+      <UniqueIdentifier>{d2994108-ec18-4e80-9552-a0af3abab962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pattern">
+      <UniqueIdentifier>{b221a259-0d53-4bc6-aa2e-a6f775a587b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{a62b331c-6f51-4072-a840-463ca9688aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\sharedmemory">
+      <UniqueIdentifier>{492902eb-7eec-463c-b700-07aea2563e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structure">
+      <UniqueIdentifier>{6a790b79-5026-4b77-a847-080c7e23e275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{42345f70-7b5d-4108-b155-ff16d2c2815e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threading">
+      <UniqueIdentifier>{956c77dd-df58-41a5-84c6-859b6f5d9793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variable">
+      <UniqueIdentifier>{9fd6959f-eb0e-4097-9a24-206771e404ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vfs">
+      <UniqueIdentifier>{edbf838f-3444-457b-b641-a6d49a7d0532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{f6141c20-5c6e-4c6b-8092-d75079929655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="symbol">
+      <UniqueIdentifier>{184d5159-cb44-4b3e-a7cf-943731971d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{35012ed3-979a-4350-80c5-91e4553a4371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{2bf38a3e-0d8f-4a40-b2a1-d527013fdf1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="FourCC.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="GeomDefine.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathBaseDefine.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSpace.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_map.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="date_time.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_code.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_memory.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="file_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="half_byte_map.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="height_field.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="height_field_data.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="height_map.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="object_pool.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="rand_num_pool.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_obj.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="registry.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="rtti_info.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="rtti_obj.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_ptr.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="speed_tester.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="StlExt.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="word_filter.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="crash_log.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="dump.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="xzip.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\LzFind.h">
+      <Filter>filter\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\LzFindMt.h">
+      <Filter>filter\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\LzHash.h">
+      <Filter>filter\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\LzmaDec.h">
+      <Filter>filter\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\LzmaEnc.h">
+      <Filter>filter\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Threads.h">
+      <Filter>filter\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Types.h">
+      <Filter>filter\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_helper.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_mgr.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public_define.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public_function.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public_table.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public_typedefine.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_cache.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_cache_ex.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_trace.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_trace_off.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_trace_on.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="new_protect.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockingSocket.h">
+      <Filter>network\ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="Definements.h">
+      <Filter>network\ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPClient.h">
+      <Filter>network\ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPDataTypes.h">
+      <Filter>network\ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPFileState.h">
+      <Filter>network\ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPListParse.h">
+      <Filter>network\ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="rc_smart_ptr.h">
+      <Filter>network\ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="wan_client.h">
+      <Filter>network\wan</Filter>
+    </ClInclude>
+    <ClInclude Include="wan_define.h">
+      <Filter>network\wan</Filter>
+    </ClInclude>
+    <ClInclude Include="wan_list.h">
+      <Filter>network\wan</Filter>
+    </ClInclude>
+    <ClInclude Include="wan_queue.h">
+      <Filter>network\wan</Filter>
+    </ClInclude>
+    <ClInclude Include="wan_server.h">
+      <Filter>network\wan</Filter>
+    </ClInclude>
+    <ClInclude Include="broadcast.h">
+      <Filter>network\lan</Filter>
+    </ClInclude>
+    <ClInclude Include="lan_client.h">
+      <Filter>network\lan</Filter>
+    </ClInclude>
+    <ClInclude Include="lan_server.h">
+      <Filter>network\lan</Filter>
+    </ClInclude>
+    <ClInclude Include="http_client.h">
+      <Filter>network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="net_define.h">
+      <Filter>network\general</Filter>
+    </ClInclude>
+    <ClInclude Include="net_msg_name_table.h">
+      <Filter>network\general</Filter>
+    </ClInclude>
+    <ClInclude Include="net_util.h">
+      <Filter>network\general</Filter>
+    </ClInclude>
+    <ClInclude Include="ping.h">
+      <Filter>network\general</Filter>
+    </ClInclude>
+    <ClInclude Include="binder.h">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="functor.h">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="none_copyable.h">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>resource\sharedmemory</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_mutex.h">
+      <Filter>resource\sharedmemory</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_memory.h">
+      <Filter>resource\sharedmemory</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_array.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="dyna_array.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="emap.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_list.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="fix_map.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="flag_array.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="list_ts.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="map_ts.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_queue.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_queue_ts.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ptr_queue.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_queue.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_tiny_queue.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_list.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_map.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_vector.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="TSList.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_io.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="io_redir.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="callback.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="condition.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="executor.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="executor_fun.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="executor_obj.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="executor_task.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="local_lock.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="task.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="task_scheduler.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_mgr.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="csv_file.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="FArchive.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="FArchiveAdv.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="ini_loader.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="ssv_loader.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_loader.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="epk_define.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="epk_reader.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="vfs.h">
+      <Filter>vfs</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="symbol.h">
+      <Filter>symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="file_name.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="hz2pinyin_table.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="md5_define.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="rc4.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string_table.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string_util.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="super_string.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="ECore.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\D3d\Include\audiodefs.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\comdecl.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D2D1.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D2D1Helper.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D2DBaseTypes.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D2Derr.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3d9.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3d9caps.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3d9types.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D10.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D10_1.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D10_1shader.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D10effect.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3d10misc.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3d10sdklayers.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D10shader.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D11.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D11SDKLayers.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3D11Shader.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3Dcommon.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3Dcompiler.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DCSX.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9anim.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9core.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9effect.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9math.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9mesh.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9shader.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9shape.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9tex.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx9xof.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX10.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\d3dx10async.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX10core.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX10math.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX10mesh.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX10tex.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX11.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX11async.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX11core.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\D3DX11tex.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\Dcommon.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\ddraw.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dinput.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dinputd.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dsconf.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dsetup.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dsound.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dvp.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\DWrite.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dxdiag.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\DxErr.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dxfile.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\DXGI.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\DXGIFormat.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\DXGIType.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\dxsdkver.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\gameux.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\multimon.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\PIXPlugin.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\rmxfguid.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\rmxftmpl.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\rpcsal.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\X3DAudio.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\xact3.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\xact3d3.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\xact3wb.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\XAPO.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\XAPOBase.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\XAPOFX.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\XAudio2.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\XAudio2fx.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\XDSP.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\XInput.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\xma2defs.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3d\Include\xnamath.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\stats1c.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\config1x.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzo_asm.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzo_conf.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzo_dict.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzo_ptr.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzo1.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzo1x.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzoconf.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzodefs.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\lzoutil.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\miniacc.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\stats1a.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo\stats1b.h">
+      <Filter>filter\lzo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeomDefine.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_map.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="date_time.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_code.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="half_byte_map.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="height_field.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="height_field_data.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="height_map.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_obj.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="rtti_info.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="rtti_obj.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="speed_tester.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="word_filter.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="crash_log.cpp">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="dump.cpp">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="xzip.cpp">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\LzFind.c">
+      <Filter>filter\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\LzFindMt.c">
+      <Filter>filter\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\LzmaDec.c">
+      <Filter>filter\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\LzmaEnc.c">
+      <Filter>filter\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Threads.c">
+      <Filter>filter\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_mgr.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="public_function.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="public_table.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="mem_trace.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="new_protect.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockingSocket.cpp">
+      <Filter>network\ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPClient.cpp">
+      <Filter>network\ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPDataTypes.cpp">
+      <Filter>network\ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPFileState.cpp">
+      <Filter>network\ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPListParse.cpp">
+      <Filter>network\ftp</Filter>
+    </ClCompile>
+    <ClCompile Include="wan_client.cpp">
+      <Filter>network\wan</Filter>
+    </ClCompile>
+    <ClCompile Include="wan_define.cpp">
+      <Filter>network\wan</Filter>
+    </ClCompile>
+    <ClCompile Include="wan_server.cpp">
+      <Filter>network\wan</Filter>
+    </ClCompile>
+    <ClCompile Include="broadcast.cpp">
+      <Filter>network\lan</Filter>
+    </ClCompile>
+    <ClCompile Include="lan_client.cpp">
+      <Filter>network\lan</Filter>
+    </ClCompile>
+    <ClCompile Include="lan_server.cpp">
+      <Filter>network\lan</Filter>
+    </ClCompile>
+    <ClCompile Include="http_client.cpp">
+      <Filter>network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="net_util.cpp">
+      <Filter>network\general</Filter>
+    </ClCompile>
+    <ClCompile Include="ping.cpp">
+      <Filter>network\general</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>resource\sharedmemory</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel_mutex.cpp">
+      <Filter>resource\sharedmemory</Filter>
+    </ClCompile>
+    <ClCompile Include="shared_memory.cpp">
+      <Filter>resource\sharedmemory</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_queue.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_queue_ts.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="disk_io.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="io_redir.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="executor_fun.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="executor_obj.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="executor_task.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="task.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="task_scheduler.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_mgr.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="csv_file.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="FArchive.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="ini_loader.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="ssv_loader.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_loader.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="epk_reader.cpp">
+      <Filter>vfs</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="symbol.cpp">
+      <Filter>symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="rc4.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string_table.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string_util.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="ECore.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="lzo\lzo_crc.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_init.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_ptr.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_str.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_util.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_1.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_9x.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_d1.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_d2.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_d3.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_o.c">
+      <Filter>filter\lzo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\Script1.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tinyxml.txt">
+      <Filter>xml</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\D3d\Include\d3dx9math.inl">
+      <Filter>D3D</Filter>
+    </None>
+    <None Include="..\D3d\Include\D3DX10math.inl">
+      <Filter>D3D</Filter>
+    </None>
+    <None Include="..\D3d\Include\xnamathconvert.inl">
+      <Filter>D3D</Filter>
+    </None>
+    <None Include="..\D3d\Include\xnamathmatrix.inl">
+      <Filter>D3D</Filter>
+    </None>
+    <None Include="..\D3d\Include\xnamathmisc.inl">
+      <Filter>D3D</Filter>
+    </None>
+    <None Include="..\D3d\Include\xnamathvector.inl">
+      <Filter>D3D</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="lzo\lzo1x_f1.asm">
+      <Filter>filter\lzo</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

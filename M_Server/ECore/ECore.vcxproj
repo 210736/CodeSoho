@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Profile|Win32">
+      <Configuration>Debug_Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Profile|x64">
+      <Configuration>Debug_Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoOptimize|Win32">
+      <Configuration>Release_NoOptimize</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoOptimize|x64">
+      <Configuration>Release_NoOptimize</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Profile|Win32">
+      <Configuration>Release_Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Profile|x64">
+      <Configuration>Release_Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20AE7E10-3303-4215-89B2-5E80226069EB}</ProjectGuid>
+    <RootNamespace>ECore</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\Game\$(Configuration)_x86\</OutDir>
+    <IntDir>..\vsout\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>..\vsout\$(ProjectName)\$(Configuration)_x64\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>E:\HuapiCode\Microsoft DirectX SDK %28August 2009%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>E:\HuapiCode\Microsoft DirectX SDK %28August 2009%29\Include;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\Game\$(Configuration)_x86\</OutDir>
+    <IntDir>..\vsout\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\Game\$(Configuration)_x64\</OutDir>
+    <IntDir>..\vsout\$(ProjectName)\$(Configuration)_x64\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+    <OutDir>..\..\Game\$(Configuration)_x86\</OutDir>
+    <IntDir>..\vsout\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|Win32'">
+    <OutDir>..\..\Game\$(Configuration)_x86\</OutDir>
+    <IntDir>..\vsout\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|Win32'">
+    <OutDir>..\..\Game\$(Configuration)_x86\</OutDir>
+    <IntDir>..\vsout\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|x64'">
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AssemblerOutput />
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <ManifestFile>$(IntDir)$(TargetFileName).manifest1</ManifestFile>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>false</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>IF EXIST "$(SolutionDir)\..\ECore\$(Configuration)\ECore.dll" xcopy /Q /E /Y /I "$(SolutionDir)\..\ECore\$(Configuration)\ECore.dll" "$(SolutionDir)\x64\$(Configuration)"
+IF EXIST "$(SolutionDir)\..\ECore\$(Configuration)\symbol\ECore.pdb" xcopy /Q /E /Y /I "$(SolutionDir)\..\ECore\$(Configuration)\symbol\ECore.pdb" "$(SolutionDir)\x64\$(Configuration)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ManifestFile>$(IntDir)$(ProjectName).manifest</ManifestFile>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)symbol\$(ProjectName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>false</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ManifestFile>$(IntDir)$(ProjectName).manifest</ManifestFile>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ECORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;Mswsock.lib;Ws2_32.lib;odbc32.lib;odbccp32.lib;dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ManifestFile>$(IntDir)$(ProjectName).manifest</ManifestFile>
+      <IgnoreSpecificDefaultLibraries>libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>false</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\D3d\Include\audiodefs.h" />
+    <ClInclude Include="..\D3d\Include\comdecl.h" />
+    <ClInclude Include="..\D3d\Include\D2D1.h" />
+    <ClInclude Include="..\D3d\Include\D2D1Helper.h" />
+    <ClInclude Include="..\D3d\Include\D2DBaseTypes.h" />
+    <ClInclude Include="..\D3d\Include\D2Derr.h" />
+    <ClInclude Include="..\D3d\Include\D3D10.h" />
+    <ClInclude Include="..\D3d\Include\D3D10effect.h" />
+    <ClInclude Include="..\D3d\Include\d3d10misc.h" />
+    <ClInclude Include="..\D3d\Include\d3d10sdklayers.h" />
+    <ClInclude Include="..\D3d\Include\D3D10shader.h" />
+    <ClInclude Include="..\D3d\Include\D3D10_1.h" />
+    <ClInclude Include="..\D3d\Include\D3D10_1shader.h" />
+    <ClInclude Include="..\D3d\Include\D3D11.h" />
+    <ClInclude Include="..\D3d\Include\D3D11SDKLayers.h" />
+    <ClInclude Include="..\D3d\Include\D3D11Shader.h" />
+    <ClInclude Include="..\D3d\Include\d3d9.h" />
+    <ClInclude Include="..\D3d\Include\d3d9caps.h" />
+    <ClInclude Include="..\D3d\Include\d3d9types.h" />
+    <ClInclude Include="..\D3d\Include\D3Dcommon.h" />
+    <ClInclude Include="..\D3d\Include\D3Dcompiler.h" />
+    <ClInclude Include="..\D3d\Include\D3DCSX.h" />
+    <ClInclude Include="..\D3d\Include\D3DX10.h" />
+    <ClInclude Include="..\D3d\Include\d3dx10async.h" />
+    <ClInclude Include="..\D3d\Include\D3DX10core.h" />
+    <ClInclude Include="..\D3d\Include\D3DX10math.h" />
+    <ClInclude Include="..\D3d\Include\D3DX10mesh.h" />
+    <ClInclude Include="..\D3d\Include\D3DX10tex.h" />
+    <ClInclude Include="..\D3d\Include\D3DX11.h" />
+    <ClInclude Include="..\D3d\Include\D3DX11async.h" />
+    <ClInclude Include="..\D3d\Include\D3DX11core.h" />
+    <ClInclude Include="..\D3d\Include\D3DX11tex.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9anim.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9core.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9effect.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9math.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9mesh.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9shader.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9shape.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9tex.h" />
+    <ClInclude Include="..\D3d\Include\d3dx9xof.h" />
+    <ClInclude Include="..\D3d\Include\Dcommon.h" />
+    <ClInclude Include="..\D3d\Include\ddraw.h" />
+    <ClInclude Include="..\D3d\Include\dinput.h" />
+    <ClInclude Include="..\D3d\Include\dinputd.h" />
+    <ClInclude Include="..\D3d\Include\dsconf.h" />
+    <ClInclude Include="..\D3d\Include\dsetup.h" />
+    <ClInclude Include="..\D3d\Include\dsound.h" />
+    <ClInclude Include="..\D3d\Include\dvp.h" />
+    <ClInclude Include="..\D3d\Include\DWrite.h" />
+    <ClInclude Include="..\D3d\Include\dxdiag.h" />
+    <ClInclude Include="..\D3d\Include\DxErr.h" />
+    <ClInclude Include="..\D3d\Include\dxfile.h" />
+    <ClInclude Include="..\D3d\Include\DXGI.h" />
+    <ClInclude Include="..\D3d\Include\DXGIFormat.h" />
+    <ClInclude Include="..\D3d\Include\DXGIType.h" />
+    <ClInclude Include="..\D3d\Include\dxsdkver.h" />
+    <ClInclude Include="..\D3d\Include\gameux.h" />
+    <ClInclude Include="..\D3d\Include\multimon.h" />
+    <ClInclude Include="..\D3d\Include\PIXPlugin.h" />
+    <ClInclude Include="..\D3d\Include\rmxfguid.h" />
+    <ClInclude Include="..\D3d\Include\rmxftmpl.h" />
+    <ClInclude Include="..\D3d\Include\rpcsal.h" />
+    <ClInclude Include="..\D3d\Include\X3DAudio.h" />
+    <ClInclude Include="..\D3d\Include\xact3.h" />
+    <ClInclude Include="..\D3d\Include\xact3d3.h" />
+    <ClInclude Include="..\D3d\Include\xact3wb.h" />
+    <ClInclude Include="..\D3d\Include\XAPO.h" />
+    <ClInclude Include="..\D3d\Include\XAPOBase.h" />
+    <ClInclude Include="..\D3d\Include\XAPOFX.h" />
+    <ClInclude Include="..\D3d\Include\XAudio2.h" />
+    <ClInclude Include="..\D3d\Include\XAudio2fx.h" />
+    <ClInclude Include="..\D3d\Include\XDSP.h" />
+    <ClInclude Include="..\D3d\Include\XInput.h" />
+    <ClInclude Include="..\D3d\Include\xma2defs.h" />
+    <ClInclude Include="..\D3d\Include\xnamath.h" />
+    <ClInclude Include="array.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="binder.h" />
+    <ClInclude Include="bit_array.h" />
+    <ClInclude Include="bit_map.h" />
+    <ClInclude Include="bit_util.h" />
+    <ClInclude Include="BlockingSocket.h" />
+    <ClInclude Include="broadcast.h" />
+    <ClInclude Include="callback.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="condition.h" />
+    <ClInclude Include="cpu.h" />
+    <ClInclude Include="crash_log.h" />
+    <ClInclude Include="crc.h" />
+    <ClInclude Include="csv_file.h" />
+    <ClInclude Include="date_time.h" />
+    <ClInclude Include="Definements.h" />
+    <ClInclude Include="disk_io.h" />
+    <ClInclude Include="dump.h" />
+    <ClInclude Include="dyna_array.h" />
+    <ClInclude Include="ECore.h" />
+    <ClInclude Include="emap.h" />
+    <ClInclude Include="epk_define.h" />
+    <ClInclude Include="epk_reader.h" />
+    <ClInclude Include="error.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="executor.h" />
+    <ClInclude Include="executor_fun.h" />
+    <ClInclude Include="executor_obj.h" />
+    <ClInclude Include="executor_task.h" />
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="FArchive.h" />
+    <ClInclude Include="FArchiveAdv.h" />
+    <ClInclude Include="fast_code.h" />
+    <ClInclude Include="fast_list.h" />
+    <ClInclude Include="fast_memory.h" />
+    <ClInclude Include="file_name.h" />
+    <ClInclude Include="file_util.h" />
+    <ClInclude Include="filter.h" />
+    <ClInclude Include="fix_map.h" />
+    <ClInclude Include="flag_array.h" />
+    <ClInclude Include="FourCC.h" />
+    <ClInclude Include="FTPClient.h" />
+    <ClInclude Include="FTPDataTypes.h" />
+    <ClInclude Include="FTPFileState.h" />
+    <ClInclude Include="FTPListParse.h" />
+    <ClInclude Include="functor.h" />
+    <ClInclude Include="GeomDefine.h" />
+    <ClInclude Include="half_byte_map.h" />
+    <ClInclude Include="height_field.h" />
+    <ClInclude Include="height_field_data.h" />
+    <ClInclude Include="height_map.h" />
+    <ClInclude Include="http_client.h" />
+    <ClInclude Include="hz2pinyin_table.h" />
+    <ClInclude Include="ini_loader.h" />
+    <ClInclude Include="io_redir.h" />
+    <ClInclude Include="kernel_mutex.h" />
+    <ClInclude Include="lan_client.h" />
+    <ClInclude Include="lan_server.h" />
+    <ClInclude Include="list_ts.h" />
+    <ClInclude Include="local_lock.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="lzma\LzFind.h" />
+    <ClInclude Include="lzma\LzFindMt.h" />
+    <ClInclude Include="lzma\LzHash.h" />
+    <ClInclude Include="lzma\LzmaDec.h" />
+    <ClInclude Include="lzma\LzmaEnc.h" />
+    <ClInclude Include="lzma\Threads.h" />
+    <ClInclude Include="lzma\Types.h" />
+    <ClInclude Include="lzo\config1x.h" />
+    <ClInclude Include="lzo\lzo1.h" />
+    <ClInclude Include="lzo\lzo1x.h" />
+    <ClInclude Include="lzo\lzoconf.h" />
+    <ClInclude Include="lzo\lzodefs.h" />
+    <ClInclude Include="lzo\lzoutil.h" />
+    <ClInclude Include="lzo\lzo_asm.h" />
+    <ClInclude Include="lzo\lzo_conf.h" />
+    <ClInclude Include="lzo\lzo_dict.h" />
+    <ClInclude Include="lzo\lzo_ptr.h" />
+    <ClInclude Include="lzo\miniacc.h" />
+    <ClInclude Include="lzo\stats1a.h" />
+    <ClInclude Include="lzo\stats1b.h" />
+    <ClInclude Include="lzo\stats1c.h" />
+    <ClInclude Include="map_ts.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="MathBaseDefine.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="md5_define.h" />
+    <ClInclude Include="mem_cache.h" />
+    <ClInclude Include="mem_cache_ex.h" />
+    <ClInclude Include="mem_trace.h" />
+    <ClInclude Include="mem_trace_off.h" />
+    <ClInclude Include="mem_trace_on.h" />
+    <ClInclude Include="msg_queue.h" />
+    <ClInclude Include="msg_queue_ts.h" />
+    <ClInclude Include="mutex.h" />
+    <ClInclude Include="net_define.h" />
+    <ClInclude Include="net_msg_name_table.h" />
+    <ClInclude Include="net_util.h" />
+    <ClInclude Include="new_protect.h" />
+    <ClInclude Include="none_copyable.h" />
+    <ClInclude Include="ObjectSpace.h" />
+    <ClInclude Include="object_pool.h" />
+    <ClInclude Include="obj_helper.h" />
+    <ClInclude Include="obj_mgr.h" />
+    <ClInclude Include="ping.h" />
+    <ClInclude Include="proc.h" />
+    <ClInclude Include="ptr_queue.h" />
+    <ClInclude Include="public_define.h" />
+    <ClInclude Include="public_function.h" />
+    <ClInclude Include="public_table.h" />
+    <ClInclude Include="public_typedefine.h" />
+    <ClInclude Include="rand_num_pool.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="rc4.h" />
+    <ClInclude Include="rc_smart_ptr.h" />
+    <ClInclude Include="ref_obj.h" />
+    <ClInclude Include="registry.h" />
+    <ClInclude Include="resource\resource.h" />
+    <ClInclude Include="RingBuffer.h" />
+    <ClInclude Include="rtti_info.h" />
+    <ClInclude Include="rtti_obj.h" />
+    <ClInclude Include="safe_queue.h" />
+    <ClInclude Include="safe_tiny_queue.h" />
+    <ClInclude Include="shared_memory.h" />
+    <ClInclude Include="shared_ptr.h" />
+    <ClInclude Include="simple_list.h" />
+    <ClInclude Include="simple_map.h" />
+    <ClInclude Include="simple_vector.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="speed_tester.h" />
+    <ClInclude Include="ssv_loader.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StlExt.h" />
+    <ClInclude Include="string_table.h" />
+    <ClInclude Include="string_util.h" />
+    <ClInclude Include="super_string.h" />
+    <ClInclude Include="symbol.h" />
+    <ClInclude Include="task.h" />
+    <ClInclude Include="task_scheduler.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="thread_mgr.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="TSList.h" />
+    <ClInclude Include="unicode.h" />
+    <ClInclude Include="vfs.h" />
+    <ClInclude Include="wan_client.h" />
+    <ClInclude Include="wan_define.h" />
+    <ClInclude Include="wan_list.h" />
+    <ClInclude Include="wan_queue.h" />
+    <ClInclude Include="wan_server.h" />
+    <ClInclude Include="word_filter.h" />
+    <ClInclude Include="xml_loader.h" />
+    <ClInclude Include="xzip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="bit_map.cpp" />
+    <ClCompile Include="BlockingSocket.cpp" />
+    <ClCompile Include="broadcast.cpp" />
+    <ClCompile Include="callback.cpp" />
+    <ClCompile Include="cpu.cpp" />
+    <ClCompile Include="crash_log.cpp" />
+    <ClCompile Include="csv_file.cpp" />
+    <ClCompile Include="date_time.cpp" />
+    <ClCompile Include="disk_io.cpp" />
+    <ClCompile Include="dump.cpp" />
+    <ClCompile Include="ECore.cpp" />
+    <ClCompile Include="epk_reader.cpp" />
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="event.cpp" />
+    <ClCompile Include="executor_fun.cpp" />
+    <ClCompile Include="executor_obj.cpp" />
+    <ClCompile Include="executor_task.cpp" />
+    <ClCompile Include="FArchive.cpp" />
+    <ClCompile Include="fast_code.cpp" />
+    <ClCompile Include="filter.cpp" />
+    <ClCompile Include="FTPClient.cpp" />
+    <ClCompile Include="FTPDataTypes.cpp" />
+    <ClCompile Include="FTPFileState.cpp" />
+    <ClCompile Include="FTPListParse.cpp" />
+    <ClCompile Include="GeomDefine.cpp" />
+    <ClCompile Include="half_byte_map.cpp" />
+    <ClCompile Include="height_field.cpp" />
+    <ClCompile Include="height_field_data.cpp" />
+    <ClCompile Include="height_map.cpp" />
+    <ClCompile Include="http_client.cpp" />
+    <ClCompile Include="ini_loader.cpp" />
+    <ClCompile Include="io_redir.cpp" />
+    <ClCompile Include="kernel_mutex.cpp" />
+    <ClCompile Include="lan_client.cpp" />
+    <ClCompile Include="lan_server.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="lzma\LzFind.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzma\LzFindMt.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzma\LzmaDec.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzma\LzmaEnc.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzma\Threads.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_1.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_9x.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_d1.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_d2.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_d3.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo1x_o.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_crc.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_init.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_ptr.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_str.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lzo\lzo_util.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="mem_trace.cpp" />
+    <ClCompile Include="msg_queue.cpp" />
+    <ClCompile Include="msg_queue_ts.cpp" />
+    <ClCompile Include="net_util.cpp" />
+    <ClCompile Include="new_protect.cpp" />
+    <ClCompile Include="obj_mgr.cpp" />
+    <ClCompile Include="ping.cpp" />
+    <ClCompile Include="proc.cpp" />
+    <ClCompile Include="public_function.cpp" />
+    <ClCompile Include="public_table.cpp" />
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="rc4.cpp" />
+    <ClCompile Include="ref_obj.cpp" />
+    <ClCompile Include="rtti_info.cpp" />
+    <ClCompile Include="rtti_obj.cpp" />
+    <ClCompile Include="shared_memory.cpp" />
+    <ClCompile Include="speed_tester.cpp" />
+    <ClCompile Include="ssv_loader.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="string_table.cpp" />
+    <ClCompile Include="string_util.cpp" />
+    <ClCompile Include="symbol.cpp" />
+    <ClCompile Include="task.cpp" />
+    <ClCompile Include="task_scheduler.cpp" />
+    <ClCompile Include="thread.cpp" />
+    <ClCompile Include="thread_mgr.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="tinyxml.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
+      <InlineFunctionExpansion Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</InlineFunctionExpansion>
+      <MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</MinimalRebuild>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ClCompile Include="wan_client.cpp" />
+    <ClCompile Include="wan_define.cpp" />
+    <ClCompile Include="wan_server.cpp" />
+    <ClCompile Include="word_filter.cpp" />
+    <ClCompile Include="xml_loader.cpp" />
+    <ClCompile Include="xzip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="lzo\lzo1x_f1.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Profile|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoOptimize|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_Profile|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tinyxml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\D3d\Include\D3DX10math.inl" />
+    <None Include="..\D3d\Include\d3dx9math.inl" />
+    <None Include="..\D3d\Include\xnamathconvert.inl" />
+    <None Include="..\D3d\Include\xnamathmatrix.inl" />
+    <None Include="..\D3d\Include\xnamathmisc.inl" />
+    <None Include="..\D3d\Include\xnamathvector.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

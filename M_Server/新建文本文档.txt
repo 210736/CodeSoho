@@ -1,0 +1,8 @@
+右键项目 属性 连接器 输入 附加依赖项
+stlportd_static.lib
+winmm.lib
+Mswsock.lib
+Ws2_32.lib
+odbc32.lib
+odbccp32.lib
+dbghelp.lib
