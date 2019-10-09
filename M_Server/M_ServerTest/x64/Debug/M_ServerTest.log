@@ -1,12 +1,38 @@
-﻿生成启动时间为 2018/9/20 19:29:26。
-     1>项目“E:\M_Server\M_ServerTest\M_ServerTest.vcxproj”在节点 2 上(Build 个目标)。
-     1>Link:
-         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\M_Server\Solution\x64\Debug\M_ServerTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\M_Server\Solution\x64\Debug\M_ServerTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\M_Server\Solution\x64\Debug\M_ServerTest.lib" /MACHINE:X64 x64\Debug\M_ServerTest.res
-         x64\Debug\M_ServerTest.obj
-         x64\Debug\stdafx.obj
-     1>LINK : fatal error LNK1104: 无法打开文件“..\vsout\MConsole\debug_x64\MConsole.lib”
-     1>已完成生成项目“E:\M_Server\M_ServerTest\M_ServerTest.vcxproj”(Build 个目标)的操作 - 失败。
-
-生成失败。
-
-已用时间 00:00:00.10
+﻿  stdafx.cpp
+  M_ServerTest.cpp
+C:\CodeSoho\M_Server\Ecore\public_typedefine.h(122,1): warning C4005: “InterlockedExchange”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(2833): message : 参见“InterlockedExchange”的前一个定义
+C:\CodeSoho\M_Server\Ecore\public_typedefine.h(125,1): warning C4005: “InterlockedExchangeAdd”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(2836): message : 参见“InterlockedExchangeAdd”的前一个定义
+C:\CodeSoho\M_Server\Ecore\public_typedefine.h(128,1): warning C4005: “InterlockedIncrement”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(2821): message : 参见“InterlockedIncrement”的前一个定义
+C:\CodeSoho\M_Server\Ecore\public_typedefine.h(131,1): warning C4005: “InterlockedDecrement”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(2825): message : 参见“InterlockedDecrement”的前一个定义
+C:\CodeSoho\M_Server\Ecore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\Ecore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\Ecore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\Ecore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\Ecore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\Ecore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244: “初始化”: 从“_Ty”转换到“_Ty2”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty2=float
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :         ]
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\Ecore\Ray.h(46): message :         ]
+LINK : fatal error LNK1104: 无法打开文件“E:/M_Server/D3d/Lib/x64/d3dx9.lib”

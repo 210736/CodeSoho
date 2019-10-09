@@ -51,7 +51,8 @@ int main()
 	// replace_copy(cbegin(REP), cend(REP), back_inserter((ivec), 0, 42));//将0替换成42保存到ivec中
 
 	//删除重读元素
-	void elimDups(vector<string> &words)
+	string words;
+	void elimDups(vector<string> & words);
 	{
 		//按字典排序word，以便查找重复单词
 		sort(words.begin(), words.end());
@@ -61,10 +62,6 @@ int main()
 		//使用向量操作erase删除重复单词
 		words.erase(end_unique, words.end());
 	}
-
-
-
-
 
 
 
@@ -82,10 +79,11 @@ int main()
 	// auto strfind = find(cbegin(Name), cend(Name), str);
 	// cout << "The value" << str << (strfind == Name.cend() ? "is not present" : "is present") << endl;;
 
+	cout << name << endl;
 
-
-
-
-
+	
 	return 0;
 }
+
+
+

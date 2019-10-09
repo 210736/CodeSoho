@@ -1,187 +1,222 @@
-﻿生成启动时间为 2018/9/20 19:28:51。
-     1>项目“E:\M_Server\ECore\ECore.vcxproj”在节点 2 上(Build 个目标)。
-     1>_MASM:
-         Assembling lzo\lzo1x_f1.asm...
-       ClCompile:
-         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ECORE_EXPORTS /D X64 /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHa /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"..\vsout\ECore\Debug_x64\ECore.pch" /Fo"..\vsout\ECore\Debug_x64\\" /Fd"..\vsout\ECore\Debug_x64\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ECORE_EXPORTS /D X64 /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHa /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"..\vsout\ECore\Debug_x64\ECore.pch" /Fo"..\vsout\ECore\Debug_x64\\" /Fd"..\vsout\ECore\Debug_x64\vc120.pdb" /Gd /TP /errorReport:prompt BlockingSocket.cpp ECore.cpp FArchive.cpp FTPClient.cpp FTPDataTypes.cpp FTPFileState.cpp FTPListParse.cpp GeomDefine.cpp Ray.cpp Timer.cpp base64.cpp bit_map.cpp broadcast.cpp callback.cpp cpu.cpp crash_log.cpp csv_file.cpp date_time.cpp disk_io.cpp dump.cpp epk_reader.cpp error.cpp event.cpp executor_fun.cpp executor_obj.cpp executor_task.cpp fast_code.cpp filter.cpp half_byte_map.cpp height_field.cpp height_field_data.cpp height_map.cpp http_client.cpp ini_loader.cpp io_redir.cpp kernel_mutex.cpp lan_client.cpp lan_server.cpp log.cpp math.cpp md5.cpp mem_trace.cpp msg_queue.cpp msg_queue_ts.cpp net_util.cpp new_protect.cpp obj_mgr.cpp ping.cpp proc.cpp public_function.cpp public_table.cpp rc4.cpp ref_obj.cpp rtti_info.cpp rtti_obj.cpp shared_memory.cpp speed_tester.cpp ssv_loader.cpp string_table.cpp string_util.cpp symbol.cpp task.cpp task_scheduler.cpp thread.cpp thread_mgr.cpp tinyxml.cpp wan_client.cpp wan_define.cpp wan_server.cpp word_filter.cpp xml_loader.cpp xzip.cpp
-         正在跳过...(未检测到相关更改)
-         xzip.cpp
-         xml_loader.cpp
-         word_filter.cpp
-         wan_server.cpp
-         wan_define.cpp
-         wan_client.cpp
-         tinyxml.cpp
-         thread_mgr.cpp
-         thread.cpp
-         task_scheduler.cpp
-         task.cpp
-         symbol.cpp
-         string_util.cpp
-         string_table.cpp
-         ssv_loader.cpp
-         speed_tester.cpp
-         shared_memory.cpp
-         rtti_obj.cpp
-         rtti_info.cpp
-         ref_obj.cpp
-         rc4.cpp
-         public_table.cpp
-         public_function.cpp
-         proc.cpp
-         ping.cpp
-         obj_mgr.cpp
-         new_protect.cpp
-         net_util.cpp
-         msg_queue_ts.cpp
-         msg_queue.cpp
-         mem_trace.cpp
-         md5.cpp
-         math.cpp
-         log.cpp
-         lan_server.cpp
-         lan_client.cpp
-         kernel_mutex.cpp
-         io_redir.cpp
-         ini_loader.cpp
-         http_client.cpp
-         height_map.cpp
-         height_field_data.cpp
-         height_field.cpp
-         half_byte_map.cpp
-         filter.cpp
-         fast_code.cpp
-         executor_task.cpp
-         executor_obj.cpp
-         executor_fun.cpp
-         event.cpp
-         error.cpp
-         epk_reader.cpp
-         dump.cpp
-         disk_io.cpp
-         date_time.cpp
-         csv_file.cpp
-         crash_log.cpp
-         cpu.cpp
-         callback.cpp
-         broadcast.cpp
-         bit_map.cpp
-         base64.cpp
-         Timer.cpp
-         Ray.cpp
-         GeomDefine.cpp
-         FTPListParse.cpp
-         FTPFileState.cpp
-         FTPDataTypes.cpp
-         FTPClient.cpp
-         FArchive.cpp
-         ECore.cpp
-         BlockingSocket.cpp
-       Link:
-         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\ECore.dll" /INCREMENTAL /NOLOGO winmm.lib Mswsock.lib Ws2_32.lib odbc32.lib odbccp32.lib dbghelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\symbol\ECore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\vsout\ECore\Debug_x64\ECore.lib" /MACHINE:X64 /PROFILE /DLL ..\vsout\ECore\Debug_x64\Script1.res
-         ..\vsout\ECore\Debug_x64\base64.obj
-         ..\vsout\ECore\Debug_x64\bit_map.obj
-         ..\vsout\ECore\Debug_x64\BlockingSocket.obj
-         ..\vsout\ECore\Debug_x64\broadcast.obj
-         ..\vsout\ECore\Debug_x64\callback.obj
-         ..\vsout\ECore\Debug_x64\cpu.obj
-         ..\vsout\ECore\Debug_x64\crash_log.obj
-         ..\vsout\ECore\Debug_x64\csv_file.obj
-         ..\vsout\ECore\Debug_x64\date_time.obj
-         ..\vsout\ECore\Debug_x64\disk_io.obj
-         ..\vsout\ECore\Debug_x64\dump.obj
-         ..\vsout\ECore\Debug_x64\ECore.obj
-         ..\vsout\ECore\Debug_x64\epk_reader.obj
-         ..\vsout\ECore\Debug_x64\error.obj
-         ..\vsout\ECore\Debug_x64\event.obj
-         ..\vsout\ECore\Debug_x64\executor_fun.obj
-         ..\vsout\ECore\Debug_x64\executor_obj.obj
-         ..\vsout\ECore\Debug_x64\executor_task.obj
-         ..\vsout\ECore\Debug_x64\FArchive.obj
-         ..\vsout\ECore\Debug_x64\fast_code.obj
-         ..\vsout\ECore\Debug_x64\filter.obj
-         ..\vsout\ECore\Debug_x64\FTPClient.obj
-         ..\vsout\ECore\Debug_x64\FTPDataTypes.obj
-         ..\vsout\ECore\Debug_x64\FTPFileState.obj
-         ..\vsout\ECore\Debug_x64\FTPListParse.obj
-         ..\vsout\ECore\Debug_x64\GeomDefine.obj
-         ..\vsout\ECore\Debug_x64\half_byte_map.obj
-         ..\vsout\ECore\Debug_x64\height_field.obj
-         ..\vsout\ECore\Debug_x64\height_field_data.obj
-         ..\vsout\ECore\Debug_x64\height_map.obj
-         ..\vsout\ECore\Debug_x64\http_client.obj
-         ..\vsout\ECore\Debug_x64\ini_loader.obj
-         ..\vsout\ECore\Debug_x64\io_redir.obj
-         ..\vsout\ECore\Debug_x64\kernel_mutex.obj
-         ..\vsout\ECore\Debug_x64\lan_client.obj
-         ..\vsout\ECore\Debug_x64\lan_server.obj
-         ..\vsout\ECore\Debug_x64\log.obj
-         ..\vsout\ECore\Debug_x64\LzFind.obj
-         ..\vsout\ECore\Debug_x64\LzFindMt.obj
-         ..\vsout\ECore\Debug_x64\LzmaDec.obj
-         ..\vsout\ECore\Debug_x64\LzmaEnc.obj
-         ..\vsout\ECore\Debug_x64\Threads.obj
-         ..\vsout\ECore\Debug_x64\lzo1.obj
-         ..\vsout\ECore\Debug_x64\lzo1x_1.obj
-         ..\vsout\ECore\Debug_x64\lzo1x_9x.obj
-         ..\vsout\ECore\Debug_x64\lzo1x_d1.obj
-         ..\vsout\ECore\Debug_x64\lzo1x_d2.obj
-         ..\vsout\ECore\Debug_x64\lzo1x_d3.obj
-         ..\vsout\ECore\Debug_x64\lzo1x_o.obj
-         ..\vsout\ECore\Debug_x64\lzo_crc.obj
-         ..\vsout\ECore\Debug_x64\lzo_init.obj
-         ..\vsout\ECore\Debug_x64\lzo_ptr.obj
-         ..\vsout\ECore\Debug_x64\lzo_str.obj
-         ..\vsout\ECore\Debug_x64\lzo_util.obj
-         ..\vsout\ECore\Debug_x64\math.obj
-         ..\vsout\ECore\Debug_x64\md5.obj
-         ..\vsout\ECore\Debug_x64\mem_trace.obj
-         ..\vsout\ECore\Debug_x64\msg_queue.obj
-         ..\vsout\ECore\Debug_x64\msg_queue_ts.obj
-         ..\vsout\ECore\Debug_x64\net_util.obj
-         ..\vsout\ECore\Debug_x64\new_protect.obj
-         ..\vsout\ECore\Debug_x64\obj_mgr.obj
-         ..\vsout\ECore\Debug_x64\ping.obj
-         ..\vsout\ECore\Debug_x64\proc.obj
-         ..\vsout\ECore\Debug_x64\public_function.obj
-         ..\vsout\ECore\Debug_x64\public_table.obj
-         ..\vsout\ECore\Debug_x64\Ray.obj
-         ..\vsout\ECore\Debug_x64\rc4.obj
-         ..\vsout\ECore\Debug_x64\ref_obj.obj
-         ..\vsout\ECore\Debug_x64\rtti_info.obj
-         ..\vsout\ECore\Debug_x64\rtti_obj.obj
-         ..\vsout\ECore\Debug_x64\shared_memory.obj
-         ..\vsout\ECore\Debug_x64\speed_tester.obj
-         ..\vsout\ECore\Debug_x64\ssv_loader.obj
-         ..\vsout\ECore\Debug_x64\stdafx.obj
-         ..\vsout\ECore\Debug_x64\string_table.obj
-         ..\vsout\ECore\Debug_x64\string_util.obj
-         ..\vsout\ECore\Debug_x64\symbol.obj
-         ..\vsout\ECore\Debug_x64\task.obj
-         ..\vsout\ECore\Debug_x64\task_scheduler.obj
-         ..\vsout\ECore\Debug_x64\thread.obj
-         ..\vsout\ECore\Debug_x64\thread_mgr.obj
-         ..\vsout\ECore\Debug_x64\Timer.obj
-         ..\vsout\ECore\Debug_x64\tinyxml.obj
-         ..\vsout\ECore\Debug_x64\wan_client.obj
-         ..\vsout\ECore\Debug_x64\wan_define.obj
-         ..\vsout\ECore\Debug_x64\wan_server.obj
-         ..\vsout\ECore\Debug_x64\word_filter.obj
-         ..\vsout\ECore\Debug_x64\xml_loader.obj
-         ..\vsout\ECore\Debug_x64\xzip.obj
-     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
-            正在创建库 ..\vsout\ECore\Debug_x64\ECore.lib 和对象 ..\vsout\ECore\Debug_x64\ECore.exp
-         ECore.vcxproj -> E:\M_Server\ECore\Debug\ECore.dll
-       PostBuildEvent:
-         IF EXIST "E:\M_Server\Solution\\..\ECore\Debug\ECore.dll" xcopy /Q /E /Y /I "E:\M_Server\Solution\\..\ECore\Debug\ECore.dll" "E:\M_Server\Solution\\x64\Debug"
-         IF EXIST "E:\M_Server\Solution\\..\ECore\Debug\symbol\ECore.pdb" xcopy /Q /E /Y /I "E:\M_Server\Solution\\..\ECore\Debug\symbol\ECore.pdb" "E:\M_Server\Solution\\x64\Debug"
-         :VCEnd
-         复制了 1 个文件
-         复制了 1 个文件
-     1>已完成生成项目“E:\M_Server\ECore\ECore.vcxproj”(Build 个目标)的操作。
-
-生成成功。
-
-已用时间 00:00:02.98
+﻿  stdafx.cpp
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  xzip.cpp
+  xml_loader.cpp
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  word_filter.cpp
+  wan_server.cpp
+  wan_define.cpp
+  wan_client.cpp
+  tinyxml.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  Timer.cpp
+  thread_mgr.cpp
+  thread.cpp
+  task_scheduler.cpp
+  task.cpp
+  symbol.cpp
+  string_util.cpp
+  string_table.cpp
+  ssv_loader.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  speed_tester.cpp
+  shared_memory.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  rtti_obj.cpp
+  rtti_info.cpp
+  正在生成代码...
+  正在编译...
+  ref_obj.cpp
+  rc4.cpp
+C:\CodeSoho\M_Server\ECore\shared_memory.cpp(42,81): warning C4244: “参数”: 从“INT64”转换到“DWORD”，可能丢失数据
+C:\CodeSoho\M_Server\ECore\rc4.cpp(50,11): warning C4018: “<”: 有符号/无符号不匹配
+C:\CodeSoho\M_Server\ECore\rc4.cpp(65,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CodeSoho\M_Server\ECore\rc4.cpp(72,37): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\CodeSoho\M_Server\ECore\rc4.cpp(94,17): warning C4477: “sscanf”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“char *”
+C:\CodeSoho\M_Server\ECore\rc4.cpp(94,17): message : 请考虑在格式字符串中使用“%hhx”
+C:\CodeSoho\M_Server\ECore\rc4.cpp(99,37): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  Ray.cpp
+C:\CodeSoho\M_Server\ECore\rc4.cpp(100,38): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244: “初始化”: 从“_Ty”转换到“_Ty2”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty2=float
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         ]
+  public_table.cpp
+  public_function.cpp
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         ]
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  proc.cpp
+  ping.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  obj_mgr.cpp
+  new_protect.cpp
+  net_util.cpp
+  msg_queue_ts.cpp
+  msg_queue.cpp
+  mem_trace.cpp
+  md5.cpp
+  math.cpp
+  log.cpp
+  lan_server.cpp
+  lan_client.cpp
+  kernel_mutex.cpp
+  io_redir.cpp
+  正在生成代码...
+  正在编译...
+  ini_loader.cpp
+C:\CodeSoho\M_Server\ECore\ping.cpp(55,14): warning C4244: “初始化”: 从“unsigned __int64”转换到“INT”，可能丢失数据
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  http_client.cpp
+  height_map.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244: “初始化”: 从“_Ty”转换到“_Ty2”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty2=float
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         ]
+  height_field_data.cpp
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         ]
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244: “初始化”: 从“_Ty”转换到“_Ty2”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:             _Ty2=float
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4244:         ]
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         ]
+  height_field.cpp
+  half_byte_map.cpp
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message : 查看对正在编译的函数 模板 实例化“std::pair<bool,float>::pair<bool,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         with
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         [
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other1=bool,
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :             _Other2=int
+C:\CodeSoho\M_Server\ECore\Ray.h(46): message :         ]
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  GeomDefine.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  FTPListParse.cpp
+  FTPFileState.cpp
+  FTPDataTypes.cpp
+  FTPClient.cpp
+  filter.cpp
+C:\CodeSoho\M_Server\ECore\GeomDefine.cpp(4,10): fatal error C1083: 无法打开包括文件: “E:/M_Server/D3d/Include/d3dx9mesh.h”: No such file or directory
+  fast_code.cpp
+  FArchive.cpp
+C:\CodeSoho\M_Server\ECore\filter.cpp(19,83): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  executor_task.cpp
+  executor_obj.cpp
+  executor_fun.cpp
+  event.cpp
+  error.cpp
+  epk_reader.cpp
+  正在生成代码...
+  正在编译...
+  ECore.cpp
+  dump.cpp
+  disk_io.cpp
+  date_time.cpp
+  csv_file.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  crash_log.cpp
+  cpu.cpp
+  callback.cpp
+  broadcast.cpp
+  BlockingSocket.cpp
+  bit_map.cpp
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(499,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(526,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(560,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(633,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+C:\CodeSoho\M_Server\ECore\vfs.h(660,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+  base64.cpp
+  正在生成代码...
+C:\CodeSoho\M_Server\ECore\vfs.h(694,51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”

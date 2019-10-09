@@ -15,5 +15,5 @@
   <Multicastport>9999</Multicastport>
   <Loginterval>1</Loginterval>
   <LogSavetime>Y</LogSavetime>
-  <LogPath>D:\ZHXX_MONITOR\MonitorAndSet\bin\Debug</LogPath>
+  <LogPath>C:\CodeSoho\JianKong\ZHXX_MONITOR\MonitorAndSet\bin\Release\</LogPath>
 </appSettings>
